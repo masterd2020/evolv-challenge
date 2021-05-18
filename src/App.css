@@ -1,0 +1,33 @@
+:root {
+  --bg-color: #f4f4f4;
+  --pri-color: #3f6b94;
+  --pri-2-color: #ef7d32;
+  --dark-bg-color: #cccccc;
+  --light-blue: #719BFA;
+  --lighter-black: #F2F3F8;
+  --light-black: #727489;
+  --dark-black: #2A3155;
+  --light-purple: #0484C4;
+  --lightest-blue: #92D8F4;
+  --light-gray: #F0F8FB;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Texturina:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
+/*"Merriweather", "Serif"
+"Source sans pro", "Sans-Serif"*/
+
+*,
+*::before,
+*::aftrer {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  background: var(--bg-color);
+}

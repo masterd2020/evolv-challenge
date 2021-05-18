@@ -1,0 +1,85 @@
+.admin__container {
+  width: 90%;
+  margin: 2rem auto;
+  background: var(--bg-color);
+  box-shadow: .4rem .4rem .7rem white, -.4rem -.4rem .7rem #cbcbcb;
+  padding: .5rem;
+  position: relative;
+}
+
+.logout__button {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  border: none;
+  width: 5rem;
+  height: 2rem;
+  border-radius: .5rem;
+  text-align: center;
+  background: var(--bg-color);
+  box-shadow: .4rem .4rem .7rem white, -.4rem -.4rem .7rem #cbcbcb;
+}
+
+.create__dish--container {
+  width: 80%;
+  margin: 0 auto;
+  padding: .4rem;
+  border-radius: .5rem;
+  border: 1px solid black;
+}
+
+.form__wrapper--container {
+  //border: 1px solid green;
+  margin: 0 auto;
+  width: 90%;
+  display: grid;
+  grid-gap: .7rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.form__wrapper input {
+  margin: .5rem 0 0 0;
+  padding: .4rem;
+  border-radius: .5rem;
+  border: none;
+  background: var(--bg-color);
+  box-shadow: inset .4rem .4rem .7rem white, inset -.4rem -.4rem .7rem #cbcbcb;
+  outline: none;
+}
+
+.form__wrapper input:focus {
+  box-shadow: inset .4rem .4rem .7rem white, inset -.4rem -.4rem .4rem var(--light-blue);
+}
+
+.create__dish--button {
+  width: 8rem;
+  height: 2rem;
+  border: none;
+  border-radius: .3rem;
+  background: #146c06;
+  color: white;
+  margin: 2rem 0 1rem 15rem;
+  font-weight: 700;
+}
+
+.display__table--container {
+  width: 80%;
+  margin: 2rem auto;
+  border: 1px solid black;
+  border-radius: .5rem;
+  padding: .4rem;
+}
+
+.display__table--container table {
+  width: 95%;
+  margin: 1rem auto;
+  //border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.display__table--container tr,
+.display__table--container td,
+.display__table--container th {
+  border: 1px solid black;
+  padding: .4rem;
+}
