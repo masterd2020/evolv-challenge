@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/evolv-challenge/precache-manifest.2a4c5bb099b0dc3d48b2c269003fe000.js"
+  "/evolv-challenge/precache-manifest.3bf6121ba64b9810392f8797f486160b.js"
 );
 
 self.addEventListener('message', (event) => {
