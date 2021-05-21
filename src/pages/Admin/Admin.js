@@ -9,8 +9,8 @@ const Admin = () => {
   
   return(
     <div className="admin__container">
-      <h2><Link to="/admin">Admin Page</Link></h2>
-      <h2><Link to="/">User Page</Link></h2>
+      <h2><Link to="/evolv-challenge/admin">Admin Page</Link></h2>
+      <h2><Link to="/evolv-challenge">User Page</Link></h2>
       <button onClick={() => dispatch({type: "LOGOUT"})} className="logout__button">Logout</button>
       <CreateDish />
       <DisplayDish />

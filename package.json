@@ -1,7 +1,7 @@
 {
   "name": "evolv",
   "version": "0.1.0",
-  "homepage": "https://masterd2020.github.io/evolve-challenge",
+  "homepage": "https://masterd2020.github.io/evolv-challenge",
   "proxy": "http://localhost:9000",
   "dependencies": {
     "@material-ui/core": "^4.9.12",

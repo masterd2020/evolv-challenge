@@ -44,19 +44,14 @@ const reducer = (state, action) => {
   }
   
   if(action.type === "SEARCH") {
-    const newState = state.dish.filter((el) => {
-      if(el.name.includes(action.payload)) {
-        
-        alert("inside");
-        //alert(el.name.includes(action.payload));
-        alert(JSON.stringify(el));
-        return el;
-      }
-      //if(el.name === action.payload)
+    const searchTerm = action.payload;
+    
+    let newState = state.dish.filter((el) => {
+      if(el.name.includes(searchTerm)) return el;
+      
       return;
     });
-    alert("search")
-    alert(JSON.stringify(newState));
+    
     return { ...state, dish: [...newState] };
   }
   

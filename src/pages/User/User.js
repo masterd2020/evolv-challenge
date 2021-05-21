@@ -7,9 +7,9 @@ const User = () => {
   
   return(
     <div className="user__container">
-      <h2><Link to="/">User Page</Link></h2>
-      <h2><Link to="/admin">Admin Page</Link></h2>
-      <h2><Link to="/login">Login Page</Link></h2>
+      <h2><Link to="/evolv-challenge">User Page</Link></h2>
+      <h2><Link to="/evolv-challenge/admin">Admin Page</Link></h2>
+      <h2><Link to="/evolv-challenge/login">Login Page</Link></h2>
       <Search />
       <DisplayDish />
     </div>

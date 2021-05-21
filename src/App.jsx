@@ -13,7 +13,7 @@ const AdminRoute = ({ children, ...rest }) => {
     <Route
       {...rest}
       render={() =>
-        state.user.isAdmin ? children : <Redirect to="/error" />
+        state.user.isAdmin ? children : <Redirect to="/evolv-challenge/error" />
       }
     />
   );
@@ -22,16 +22,19 @@ const AdminRoute = ({ children, ...rest }) => {
 export default function App() {
   return <Router>
     <Switch>
-      <Route exact path="/" >
+      <Route exact path="/">
+        <Redirect to="/evolv-challenge"/>
+      </Route>
+      <Route exact path="/evolv-challenge" >
         <User />
       </Route>
-      <AdminRoute exact path="/admin" >
+      <AdminRoute exact path="/evolv-challenge/admin" >
         <Admin />
       </AdminRoute>
-      <Route exact path="/login" >
+      <Route exact path="/evolv-challenge/login" >
         <Login />
       </Route>
-      <Route exact path="/error" >
+      <Route exact path="/evolv-challenge/error" >
         <h2>404 Not Found</h2>
       </Route>
       <Route path="*" >

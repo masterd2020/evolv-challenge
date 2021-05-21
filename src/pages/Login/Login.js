@@ -25,7 +25,7 @@ const Login = () => {
   return (
     <div className="login__container">
       {
-        state.user.isAdmin && <Redirect to="/admin" />
+        state.user.isAdmin && <Redirect to="/evolv-challenge/admin" />
       }
       <h3>Login</h3>
       <div className="login__wrapper">
